@@ -7,25 +7,28 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import pageObjects.LandingPage;
 
-public class mainSteps {
+public class LandingPageStepDefinition {
 
+     WebDriver driver;
     @Given("User is on the landing page")
     public void user_is_on_the_landing_page() throws InterruptedException {
         WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
+        driver = new ChromeDriver();
+
         driver.get("https://accounts.shutterfly.com/");
-//        LandingPage landingPage = new LandingPage(driver);
-//        landingPage.enterUserName(userName);
+
 
         driver.manage().window().maximize();
          Thread.sleep(5000);
-        driver.findElement(By.xpath("//input[@id='email']")).sendKeys("asdada");
+        driver.findElement(By.xpath("//input[@id='email']")).sendKeys("gulati.shivam2008@gmail.com");
+       // driver.findElement(By.xpath("//input[@id='email']")).sendKeys("gulati.shivam2008@gmail.com");
     }
     @When("user login into application")
     public void user_login_into_application() {
-        System.out.println("Enter username and password");
+
+        driver.findElement(By.xpath("//input[@id='email']")).sendKeys("gulati.shivam2008@gmail.com");
+        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Winter@100");
     }
     @Then("home page is displayed")
     public void home_page_is_displayed() {

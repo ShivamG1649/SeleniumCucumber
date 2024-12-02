@@ -8,7 +8,7 @@ public class LandingPage {
 public WebDriver driver;
     //Create a constructor
    public LandingPage(WebDriver driver){
-    this.driver =driver;
+    //this.driver =driver;
    }
 
     By userName = By.xpath("//input[@id='email']"); // Page Objects
@@ -16,7 +16,7 @@ public WebDriver driver;
     public void enterUserName(String userName){
 
 
-        driver.findElement(new By.ByXPath(userName)).sendKeys("gulati.shivam2008@gmail.com");
+       // driver.findElement(new By.ByXPath(userName)).sendKeys("gulati.shivam2008@gmail.com");
 
 
     }
