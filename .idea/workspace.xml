@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="523a7363-ce3f-429e-8230-0337706c5e40" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/CheckOutPageStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/MyProjectsPageStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/OrderConfirmationStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/PhotoBookStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/step2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shutterlyV1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/mainSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,26 +37,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Cucumber Java.Feature: login.executor": "Run",
-    "Cucumber Java.Feature: login2.executor": "Run",
-    "Cucumber Java.Scenario: login in application (1).executor": "Run",
-    "Cucumber Java.Scenario: login in application.executor": "Run",
-    "Cucumber Java.Scenario: login in application2.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.TestNGRunner.executor": "Debug",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/java/WebAutomation/SeleniumProjects/Cucumber_based/shutterfly.com",
-    "onboarding.tips.debug.path": "E:/java/WebAutomation/SeleniumProjects/Cucumber_based/shutterfly.com/src/main/java/shutterlyV1/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: login.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: login2.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: login in application (1).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: login in application.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: login in application2.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.TestNGRunner.executor&quot;: &quot;Debug&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/java/WebAutomation/SeleniumProjects/Cucumber_based/shutterfly.com&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/java/WebAutomation/SeleniumProjects/Cucumber_based/shutterfly.com/src/main/java/shutterlyV1/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\java\WebAutomation\SeleniumProjects\Cucumber_based\shutterfly.com\src\test\java\features" />
