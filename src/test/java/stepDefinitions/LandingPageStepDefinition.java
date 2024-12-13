@@ -21,7 +21,7 @@ public class LandingPageStepDefinition {
 
         driver.manage().window().maximize();
          Thread.sleep(5000);
-        driver.findElement(By.xpath("//input[@id='email']")).sendKeys("gulati.shivam2008@gmail.com");
+       // driver.findElement(By.xpath("//input[@id='email']")).sendKeys("gulati.shivam2008@gmail.com");
        // driver.findElement(By.xpath("//input[@id='email']")).sendKeys("gulati.shivam2008@gmail.com");
     }
     @When("user login into application")
@@ -29,6 +29,10 @@ public class LandingPageStepDefinition {
 
         driver.findElement(By.xpath("//input[@id='email']")).sendKeys("gulati.shivam2008@gmail.com");
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Winter@100");
+
+        // click on sign in button
+
+        driver.findElement(By.xpath("//body/div[@id='root']/div[@class='app-container language-en ']/div[1]/div[3]/form[1]/div[1]/button[1]")).click();
     }
     @Then("home page is displayed")
     public void home_page_is_displayed() {
