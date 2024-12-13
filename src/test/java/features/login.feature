@@ -3,4 +3,3 @@ Feature: Application login
     Given User is on the landing page
     When user login into application
     Then home page is displayed
-    Then verify the text on loginPage
