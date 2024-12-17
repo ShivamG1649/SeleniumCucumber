@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="523a7363-ce3f-429e-8230-0337706c5e40" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumBasics/BrowserMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumBasics/ConditionalMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginPageStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SeleniumBasics/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberOptions/TestNGRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberOptions/TestNGRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/CheckOutPageStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/MyProjectsPageStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/OrderConfirmationStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/PhotoBookStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SeleniumBasics/TestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/step2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +58,7 @@
     "Cucumber Java.Scenario: login in application2.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.TestNGRunner.executor": "Debug",
+    "TestNG.TestNGRunner.executor": "Run",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/java/WebAutomation/SeleniumProjects/Cucumber_based/shutterfly.com",
     "onboarding.tips.debug.path": "E:/java/WebAutomation/SeleniumProjects/Cucumber_based/shutterfly.com/src/main/java/shutterlyV1/Main.java",
@@ -68,7 +73,7 @@
       <recent name="E:\java\WebAutomation\SeleniumProjects\Cucumber_based\shutterfly.com\src\test\java\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConditionalMethods">
+  <component name="RunManager" selected="TestNG.TestNGRunner">
     <configuration name="BrowserMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SeleniumBasics.BrowserMethods" />
       <module name="shutterlyV1" />
@@ -159,9 +164,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestNGRunner" />
         <item itemvalue="Application.ConditionalMethods" />
         <item itemvalue="Application.BrowserMethods" />
-        <item itemvalue="TestNG.TestNGRunner" />
         <item itemvalue="Cucumber Java.Feature: login" />
         <item itemvalue="Cucumber Java.Feature: login2" />
       </list>
@@ -218,39 +223,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/step2.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LoginPageStepDefinition.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
