@@ -12,7 +12,7 @@ import java.time.Duration;
 
 public class LoginPageStepDefinition {
 
-      public WebDriver driver;
+      public static WebDriver driver;
 
     @Given("user is on login page")
     public void user_is_on_login_page() throws InterruptedException
