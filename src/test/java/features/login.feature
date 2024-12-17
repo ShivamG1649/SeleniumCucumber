@@ -7,9 +7,11 @@ Feature: Application login functionality
     Then verify that user logged in
 
 
-#  Scenario: login with invalid credential when username is incorrect
+ #Sita
+  #  Scenario: login with invalid credential when password is incorrect
 #    Given user is on login page
 #    When user enter invalid username
 #    And user enter password
 #    And user click on login button
 #    Then verify the error message
+  # Test
