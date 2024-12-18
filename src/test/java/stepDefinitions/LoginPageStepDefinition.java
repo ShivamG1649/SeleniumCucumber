@@ -12,7 +12,7 @@ import java.time.Duration;
 
 public class LoginPageStepDefinition {
 
-     //public WebDriver driver;
+    //public WebDriver driver;
 
     //@Given("user is on login page")
     //public void user_is_on_login_page() throws InterruptedException
@@ -76,13 +76,22 @@ public class LoginPageStepDefinition {
     public void user_click_on_login_button() {
         driver.findElement(By.xpath("//button[@type='submit']")).click();
     }
+
+    @Then("Verify Error message")
+    public void verify_the_error_message() {
+
+
+        boolean errorMsg= driver.findElement(By.xpath("//p[text()='Invalid']")).isDisplayed();
+        Assert. assertTrue(errorMsg);
+        System.out.println("invalid");
+    }
 }
-   // @Then("Verify Error message")
 
 
 
-    //}
-//}
+
+
+
 
 
 
