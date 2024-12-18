@@ -12,6 +12,7 @@ import org.testng.Assert;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class LoginPageStepDefinition {
 
@@ -21,7 +22,12 @@ public class LoginPageStepDefinition {
     public void user_is_on_login_page() throws InterruptedException {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().window().maximize();
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        String expectedTitle="OrangeHRM";
+        String actualTitle=driver.getTitle();
+        System.out.println(actualTitle);
+        Assert.assertEquals(actualTitle,expectedTitle);
     }
 
 
@@ -84,6 +90,12 @@ public class LoginPageStepDefinition {
 
         }
 
+//        List<WebElement> elements=driver.findElements(By.tagName("p"));
+//        System.out.println(elements.size());
+//        for (WebElement element:elements){
+//
+//            System.out.println(element.getText());
+//        }
 
     }
 }
