@@ -12,11 +12,50 @@ import java.time.Duration;
 
 public class LoginPageStepDefinition {
 
-      public WebDriver driver;
+     //public WebDriver driver;
+
+    //@Given("user is on login page")
+    //public void user_is_on_login_page() throws InterruptedException
+    //{
+    // driver = new ChromeDriver();
+    // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    //driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+    //}
+
+
+    // @When("user enter userName")
+    // public void user_enter_user_name() {
+    //  driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("Admin");
+    //}
+    //@When("user enter password")
+    // public void user_enter_password() {
+    // driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("admin123");
+    //}
+    // @When("user click on login button")
+    //public void user_click_on_login_button() {
+    //driver.findElement(By.xpath("//button[@type='submit']")).click();
+    //}
+    // @Then("verify that user logged in")
+    //public void verify_that_user_logged_in() {
+
+    //   boolean OraneHRMLogo= driver.findElement(By.xpath("//img[@alt='client brand banner']")).isDisplayed();
+    // Assert.assertTrue(OraneHRMLogo);
+
+//         String expectedResult ="Shivam ";
+//         String actualResult ="Shivam";
+//         Assert.assertEquals(actualResult,expectedResult);
+
+    //}
+
+//}
+
+
+//public class LoginPageStepDefinition {
+
+    public WebDriver driver;
 
     @Given("user is on login page")
-    public void user_is_on_login_page() throws InterruptedException
-    {
+    public void user_is_on_login_page() throws InterruptedException {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
@@ -25,26 +64,29 @@ public class LoginPageStepDefinition {
 
     @When("user enter userName")
     public void user_enter_user_name() {
-        driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("Admin");
+        driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("Admin000");
     }
+
     @When("user enter password")
     public void user_enter_password() {
-        driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("admin123");
+        driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("admin");
     }
+
     @When("user click on login button")
     public void user_click_on_login_button() {
         driver.findElement(By.xpath("//button[@type='submit']")).click();
     }
-    @Then("verify that user logged in")
-    public void verify_that_user_logged_in() {
-
-         boolean OraneHRMLogo= driver.findElement(By.xpath("//img[@alt='client brand banner']")).isDisplayed();
-         Assert.assertTrue(OraneHRMLogo);
-
-//         String expectedResult ="Shivam ";
-//         String actualResult ="Shivam";
-//         Assert.assertEquals(actualResult,expectedResult);
-
-    }
-
 }
+   // @Then("Verify Error message")
+
+
+
+    //}
+//}
+
+
+
+
+
+
+

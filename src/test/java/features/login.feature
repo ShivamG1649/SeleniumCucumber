@@ -13,3 +13,18 @@ Feature: Application login functionality
 #    And user enter password
 #    And user click on login button
 #    Then verify the error message
+
+  #  Scenario: login with invalid credential when username And Password is incorrect
+#    Given user is on login page
+#    When user enter invalid username
+#    And user enter invalid password
+#    And user click on login button
+#    Then verify the error message
+
+   #Maruthi
+  #  Scenario: login with invalid credential when username and  password is incorrect
+#    Given user is on login page
+#    When user enter invalid username
+#    And user enter password
+#    And user click on login button
+#    Then verify the error message
