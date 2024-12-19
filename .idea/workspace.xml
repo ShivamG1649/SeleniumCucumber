@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="523a7363-ce3f-429e-8230-0337706c5e40" name="Changes" comment="Cucumber framework">
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/dashboard.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DashBoardStepDefinition.java" afterDir="false" />
+    <list default="true" id="523a7363-ce3f-429e-8230-0337706c5e40" name="Changes" comment="DashBoard test case">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/TestContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/DashBoardStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DashBoardStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginPageStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginPageStepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734452880599</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DashBoard test case">
+      <option name="closed" value="true" />
+      <created>1734539173116</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734539173116</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,7 +220,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/SeleniumSitaGit" />
                       </list>
                     </value>
                   </entry>
@@ -228,14 +235,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Cucumber framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cucumber framework" />
+    <MESSAGE value="DashBoard test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="DashBoard test case" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LoginPageStepDefinition.java</url>
-          <line>51</line>
+          <line>58</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
