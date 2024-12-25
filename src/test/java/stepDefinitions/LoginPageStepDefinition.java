@@ -1,5 +1,5 @@
 package stepDefinitions;
-
+import Utils.TestContext;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -8,15 +8,22 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import java.util.List;
+
 public class LoginPageStepDefinition {
 
-    public WebDriver driver;
+   WebDriver driver =TestContext.driver;
+
+//    public LoginPageStepDefinition(TestContext testContext)
+//    {
+//       this.testContext=testContext;
+//    }
+
 
     @Given("user is on login page")
     public void user_is_on_login_page() throws InterruptedException {
@@ -75,27 +82,5 @@ public class LoginPageStepDefinition {
         Assert.assertTrue(status);
     }
 
-    @When("verify that all quick icons available on dashBoard page")
-    public void verify_allIcons() {
-        // Verification code should be here
 
-        ArrayList<String> ExpectedQuickIcons = new ArrayList<>(Arrays.asList("Assign Leave", "Leave List", "Timesheets", "Apply Leave", "My Leave", "My Timesheet"));
-
-        for (String i : ExpectedQuickIcons) {
-
-            String xpath = "//div[@title='" + i + "']";
-            WebElement element = driver.findElement(By.xpath(xpath));
-            boolean status = element.isDisplayed();
-            Assert.assertTrue(status);
-
-        }
-
-//        List<WebElement> elements=driver.findElements(By.tagName("p"));
-//        System.out.println(elements.size());
-//        for (WebElement element:elements){
-//
-//            System.out.println(element.getText());
-//        }
-
-    }
 }
