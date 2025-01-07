@@ -5,12 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="523a7363-ce3f-429e-8230-0337706c5e40" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumBasics/BrowserMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumBasics/ConditionalMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberOptions/AdminTestNGRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberOptions/LeaveTestNGRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberOptions/TestNGRunner1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/adminPage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/homePage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/leavePage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/AdminPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LeavePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/PageObjectManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AdminPageStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LeavePageStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/GenericUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/qa.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SeleniumBasics/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberOptions/TestNGRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberOptions/LoginTestNGRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/DashBoardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/CheckOutPageStepDefinition.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/MyProjectsPageStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/OrderConfirmationStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/PhotoBookStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SeleniumBasics/TestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/step2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,92 +74,49 @@
     "Application.Main.executor": "Run",
     "Cucumber Java.Feature: login.executor": "Run",
     "Cucumber Java.Feature: login2.executor": "Run",
+    "Cucumber Java.Scenario: Verify system user search for Admin and  ESS UserRoles.executor": "Run",
     "Cucumber Java.Scenario: login in application (1).executor": "Run",
     "Cucumber Java.Scenario: login in application.executor": "Run",
     "Cucumber Java.Scenario: login in application2.executor": "Debug",
+    "Cucumber Java.Scenario: verify the search functionality on the leave page.executor": "Run",
+    "Maven.shutterlyV1 [clean].executor": "Run",
+    "Maven.shutterlyV1 [compile].executor": "Run",
+    "Maven.shutterlyV1 [test].executor": "Run",
+    "Maven.shutterlyV1 [verify].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.TestNGRunner.executor": "Debug",
+    "TestNG.AdminTestNGRunner.executor": "Run",
+    "TestNG.E:/java/WebAutomation/SeleniumProjects/Cucumber_based/End2End_Automation_Cucumber/src/test/testng.xml.executor": "Run",
+    "TestNG.LandingPageStepDefinition.verifyThatUserLoggedIn.executor": "Run",
+    "TestNG.LeaveTestNGRunner.executor": "Run",
+    "TestNG.LoginTestNGRunner.executor": "Run",
+    "TestNG.TestNGRunner.executor": "Run",
+    "TestNG.TestNGRunner1.executor": "Run",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/java/WebAutomation/SeleniumProjects/Cucumber_based/shutterfly.com",
+    "last_opened_file_path": "E:/java/WebAutomation/SeleniumProjects/Cucumber_based/End2End_Automation_Cucumber/src/test/java/CucumberOptions",
     "onboarding.tips.debug.path": "E:/java/WebAutomation/SeleniumProjects/Cucumber_based/shutterfly.com/src/main/java/shutterlyV1/Main.java",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\WebAutomation\SeleniumProjects\Cucumber_based\End2End_Automation_Cucumber\src\test\java\CucumberOptions" />
+      <recent name="E:\java\WebAutomation\SeleniumProjects\Cucumber_based\End2End_Automation_Cucumber\src\test\java\features" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\java\WebAutomation\SeleniumProjects\Cucumber_based\shutterfly.com\src\test\java\features" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="CucumberOptions" />
+      <recent name="pageObjects" />
+      <recent name="stepDefinitions" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ConditionalMethods">
-    <configuration name="BrowserMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeleniumBasics.BrowserMethods" />
-      <module name="shutterlyV1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumBasics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConditionalMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeleniumBasics.ConditionalMethods" />
-      <module name="shutterlyV1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumBasics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/login.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="shutterlyV1" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: login" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: login2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/login2.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="shutterlyV1" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: login2" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNGRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.E:/java/WebAutomation/SeleniumProjects/Cucumber_based/End2End_Automation_Cucumber/src/test/testng.xml">
+    <configuration name="AdminTestNGRunner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shutterlyV1" />
       <extension name="coverage">
         <pattern>
@@ -142,7 +125,68 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="CucumberOptions" />
-      <option name="MAIN_CLASS_NAME" value="CucumberOptions.TestNGRunner" />
+      <option name="MAIN_CLASS_NAME" value="CucumberOptions.AdminTestNGRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/java/WebAutomation/SeleniumProjects/Cucumber_based/End2End_Automation_Cucumber/src/test/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shutterlyV1" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeaveTestNGRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shutterlyV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CucumberOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="CucumberOptions.LeaveTestNGRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTestNGRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shutterlyV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CucumberOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="CucumberOptions.LoginTestNGRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGRunner1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shutterlyV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CucumberOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="CucumberOptions.TestNGRunner1" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -151,19 +195,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BrowserMethods" />
-      <item itemvalue="Application.ConditionalMethods" />
-      <item itemvalue="Cucumber Java.Feature: login" />
-      <item itemvalue="Cucumber Java.Feature: login2" />
-      <item itemvalue="TestNG.TestNGRunner" />
+      <item itemvalue="TestNG.E:/java/WebAutomation/SeleniumProjects/Cucumber_based/End2End_Automation_Cucumber/src/test/testng.xml" />
+      <item itemvalue="TestNG.AdminTestNGRunner" />
+      <item itemvalue="TestNG.LeaveTestNGRunner" />
+      <item itemvalue="TestNG.LoginTestNGRunner" />
+      <item itemvalue="TestNG.TestNGRunner1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConditionalMethods" />
-        <item itemvalue="Application.BrowserMethods" />
-        <item itemvalue="TestNG.TestNGRunner" />
-        <item itemvalue="Cucumber Java.Feature: login" />
-        <item itemvalue="Cucumber Java.Feature: login2" />
+        <item itemvalue="TestNG.E:/java/WebAutomation/SeleniumProjects/Cucumber_based/End2End_Automation_Cucumber/src/test/testng.xml" />
+        <item itemvalue="TestNG.TestNGRunner1" />
+        <item itemvalue="TestNG.AdminTestNGRunner" />
+        <item itemvalue="TestNG.LoginTestNGRunner" />
+        <item itemvalue="TestNG.LeaveTestNGRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -218,39 +262,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
-          <line>16</line>
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/AdminPageStepDefinition.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/AdminPageStepDefinition.java</url>
+          <line>19</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
-          <line>22</line>
+          <line>26</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/utils/BaseTest.java</url>
           <line>19</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/step2.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
